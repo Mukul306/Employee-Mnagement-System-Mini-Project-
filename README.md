@@ -13,7 +13,14 @@
 
    ```bash
    git clone https://github.com/your-username/simple-crud.git
-   cd simple-crud
+
+   To run frontend-
+   1.cd client
+   2.npm start
+
+   To run the backend-
+   1.cd server
+   2.nodemon index.js
  - <h2>About</h2>
 
     This is a simple CRUD app using ReactJS, NodeJS, ExpressJS and MySQL. <br>
