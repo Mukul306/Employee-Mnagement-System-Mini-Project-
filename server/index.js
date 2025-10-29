@@ -32,7 +32,7 @@ db.connect((err) => {
     }
 });
 
- //db queries
+ //database queries
  db.query(
     'INSERT INTO employee (name, email, age, position, ctc) VALUES (?,?,?,?,?)',
     [name, email, age, position, ctc], 
