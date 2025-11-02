@@ -55,16 +55,23 @@ app.get('/employees', async (req, res) => {
 });
 
 // Update
+// Update employee (all fields)
 app.put('/update', async (req, res) => {
-    try {
-        const { id, ctc } = req.body;
-        const result = await Employee.findByIdAndUpdate(id, { ctc }, { new: true });
-        res.json(result);
-    } catch (err) {
-        console.error('❌ Error updating employee:', err);
-        res.status(500).send('Internal Server Error');
-    }
+  try {
+    const { id, name, email, age, position, ctc } = req.body;
+    const result = await Employee.findByIdAndUpdate(
+      id,
+      { name, email, age, position, ctc },
+      { new: true }
+    );
+    if (!result) return res.status(404).send('Employee not found');
+    res.json(result);
+  } catch (err) {
+    console.error('❌ Error updating employee:', err);
+    res.status(500).send('Internal Server Error');
+  }
 });
+
 
 // Delete
 app.delete('/delete/:id', async (req, res) => {
