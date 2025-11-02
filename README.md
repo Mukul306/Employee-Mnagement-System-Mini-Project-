@@ -3,9 +3,9 @@
 - <h2>TechStack</h2>
   Make sure you have the following installed: <br>
 
-  - Node.js (v14.0.0 or higher)
+  - Node.js 
 
-  - React (v16.8.0 or higher)
+  - React 
 
   - MongoDB<br><br>
 
