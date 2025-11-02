@@ -1,26 +1,40 @@
-# A CRUD based Employee-Management-System using ReactJS, NodeJS, ExpressJS and MySQL
+# 🧑‍💼 Employee Management System (CRUD App)
 
-- <h2>TechStack</h2>
-  Make sure you have the following installed: <br>
+A simple **Employee Management System** built using **ReactJS (frontend)**, **NodeJS + ExpressJS (backend)**, and **MongoDB (database)**.  
+This project demonstrates full-stack CRUD (Create, Read, Update, Delete) functionality for managing employee data efficiently.
 
-  - Node.js 
+---
 
-  - React 
+## 🚀 Tech Stack
 
-  - MongoDB<br><br>
+**Frontend:** ReactJS  
+**Backend:** NodeJS, ExpressJS  
+**Database:** MongoDB  
+**Tools:** Axios, Nodemon, CORS
 
-  Clone the repository:
+---
 
-   ```bash
-Clone First & then do - 
-   To run frontend-
-   1.cd client
-   2.npm start
+## 📦 Setup Instructions
 
-   To run the backend-
-   1.cd server
-   2.nodemon index.js
- - <h2>About</h2>
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/<your-username>/Employee-Management-System.git
+cd Employee-Management-System
+Run the Frontend (React)
+cd client
+npm install
+npm start
 
-    This is a simple CRUD app using ReactJS, NodeJS, ExpressJS and MongoDB. <br>
+
+This will start your React app at:
+http://localhost:3000
+
+Run the Backend (Node + Express)
+cd server
+npm install
+nodemon index.js
+
+
+This will start your server at:
+http://localhost:5000
 
