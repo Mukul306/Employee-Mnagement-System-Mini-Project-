@@ -12,8 +12,7 @@
   Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/simple-crud.git
-
+Clone First & then do - 
    To run frontend-
    1.cd client
    2.npm start
