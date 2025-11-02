@@ -18,7 +18,7 @@ This project demonstrates full-stack CRUD (Create, Read, Update, Delete) functio
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/<your-username>/Employee-Management-System.git
+git clone 
 cd Employee-Management-System
 Run the Frontend (React)
 cd client
